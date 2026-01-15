@@ -5,7 +5,7 @@
 
 -----
 
-### Note: This repository is currently empty and the `/ceftriaxone` link below does not currently exist. This will all be posted by the end of January 2026.
+### Note: This repository is currently empty and the `/ceftriaxone-database` link below does not currently exist. This will all be posted by the end of January 2026.
 
 -----
 
@@ -56,7 +56,7 @@ The contents of this database are covered by the [lisence]. This database may be
 ```bibtex
 @dataset{childers_cefdb_2026,
   author={Childers, Leah},
-  title={CefDB: A Curated Database of Ceftriaxone Pharmacodynamics and Susceptibility Measurements},
+  title={CefDB: A Curated Database of Ceftriaxone Pharmacodynamics and Susceptibility Measurements against Neisseria gonorrhoeae},
   year={2026},
   url={https://leahchilders-portfolio.vercel.app/ceftriaxone-database}
 }
