@@ -11,7 +11,7 @@
 
 ### 1 Introduction and Basic Information
 
-This repository contains the downloadable content powering my database UI on my portfolion website: https://leahchilders-portfolio.vercel.app/ceftriaxone. This website has authentication set up for other pages, but you do not need to be logged in to access the database.
+This repository contains the downloadable content powering my database UI on my portfolion website: https://leahchilders-portfolio.vercel.app/ceftriaxone-database. This website has authentication set up for other pages, but you do not need to be logged in to access the database.
 
 The database centralizes reported pharmacodynamic values (the minimum inhibitory dose (MIC) as well as dose response curve parameters) from a systematic literature search of the antibiotic Ceftriaxone used to treat both susceptible and resistant strains of *Neisseria gonorrhoeae*. 
 
@@ -53,10 +53,10 @@ To cite the database as a whole, see below, but to cite primary claims, cite the
 
 The contents of this database are covered by the [lisence]. This database may be used, referenced, and distributed, but it must be cited. I provide the following bibtex citations for the dataset:
 
-```latex
+```bibtex
 @dataset{childers_cefdb_2026,
   author={Childers, Leah},
   title={CefDB: A Curated Database of Ceftriaxone Pharmacodynamics and Susceptibility Measurements},
   year={2026},
-  url={https://leahchilders-portfolio.vercel.app/ceftriaxone}
+  url={https://leahchilders-portfolio.vercel.app/ceftriaxone-database}
 }
