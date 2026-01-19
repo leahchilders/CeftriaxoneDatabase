@@ -19,6 +19,7 @@ There are three main categories of data contained in this database, and they are
 
 1. MIC values reported by a publication (typically from broth dilution or Etest susceptibility testing)
 2. PD curve parameters reported by a publication (typically from fitting Hill functions to time-kill data)
+    - These reported parameters may contain a fitted `zMIC` value, which is not always equal to the observed MIC. One publication may report (i) a broth dilution MIC, (ii), an Etest MIC, and (iii) a fitted zMIC value, and these may al three be different.
 3. PD curve parameters fit by me, using time-kill data or figures reported by a publication
 
 The database schema is shown in `database_schema.md` so you can see what tables and columns exist. While most of the information is presented via the UI, some is supplementary and not mentioned there.
