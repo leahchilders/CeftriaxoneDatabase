@@ -8,7 +8,7 @@ authors:
 year: 2026
 date-released: 2026-01-31
 license: CC-BY-4.0
-repository-code: "https://github.com/<your-username>/<your-repo>"
+repository-code: "https://github.com/leahchilders/CeftriaxoneDatabase"
 url: "https://leahchilders-portfolio.vercel.app/ceftriaxone-database"
 preferred-citation:
   type: dataset
