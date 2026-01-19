@@ -45,13 +45,29 @@ The UI is presented on my portfolio website, a Next.js site hosted on Vercel. Th
 
 ### 3.1 For the Referenced Publications
 
-Lisences, copyright information, DOIs, URLs, and bibtex citations are provided for each publication in the database. I also note the figure/table/file provenance. When data comes from an open access paper, I may also provide a copy of the figures and tables referenced (see `supplementary_resources/publication_assets`). 
+This repository includes data extracted from peer-reviewed publications. The underlying publications (and any figures/tables/media originating from them) remain covered by their original copyright and license terms.
 
-To cite the database as a whole, see below, but to cite primary claims, cite the publication the report came from. To cite parameters fit by me whose data came from a publication, cite the database and the publication.
+For each publication referenced in the database, I record the DOI/URL, licensing or copyright notes, and provenance (e.g., whether a value came from a table, figure, supplement, or raw dataset).
+
+For any third-party "publication assets" (e.g., figures or tables saved under `supplementary_resources/publication_assets`), those files are not covered by the database license in Section 3.2 and may only be reused according to the terms of the original publication. I will only put assets from open access papers in this folder, and it will not be exhaustive.
 
 ### 3.2 For the Database
 
-The contents of this database are covered by the [lisence]. This database may be used, referenced, and distributed, but it must be cited. I provide the following bibtex citations for the dataset:
+The database contents and my original contributions are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0).** This includes:
+
+- The SQLite database file (`ceftriaxone.sqlite`)
+- The table-level CSV exports
+- My original schema design and curation work (including annotations/metadata I created)
+- Parameter datasets fit by me (when derived from time-kill data or digitized figure data), as represented in this repository
+
+**What This License Does Not Cover:** CC BY 4.0 in this repository does not grant rights to:
+
+- Third-party figures/tables/media from publications (even if stored in this repo), which remain under their original terms
+- Content that is not owned by me or is not licensable by me
+
+### 3.3 How to Cite
+
+If you use or redistribute the database, please cite it. For scientific claims, cite the original publication(s) associated with the specific measurements/parameters.
 
 ```bibtex
 @dataset{childers_cefdb_2026,
