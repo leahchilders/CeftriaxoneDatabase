@@ -1,7 +1,7 @@
 # Ceftriaxone + *Neisseria gonorrhoeae* Database
 
-- The main **SQLite** file was last modified:
-- The **CSV** files were last modified:
+- The main **SQLite** file was last modified: *not uploaded yet*
+- The **CSV** files were last modified: *not uploaded yet, but `publication_citations/publications.py` is up to date*
 
 -----
 
