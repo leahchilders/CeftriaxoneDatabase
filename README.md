@@ -45,9 +45,9 @@ The UI is presented on my portfolio website, a Next.js site hosted on Vercel. Th
 
 ### 3.1 For the Referenced Publications
 
-This repository includes data extracted from peer-reviewed publications. The underlying publications (and any figures/tables/media originating from them) remain covered by their original copyright and license terms.
+This repository includes data extracted from peer-reviewed publications. The underlying publications (and any figures/tables/media originating from them) remain covered by their original copyright and license terms. Each publication's data can currently be found in `publication_citations/publications.py`.
 
-For each publication referenced in the database, I record the DOI/URL, licensing or copyright notes, and provenance (e.g., whether a value came from a table, figure, supplement, or raw dataset).
+For each publication referenced in the database, I record the DOI/URL, licensing or copyright notes, and provenance (e.g., whether a value came from a table, figure, supplement, or raw dataset). 
 
 For any third-party "publication assets" (e.g., figures or tables saved under `supplementary_resources/publication_assets`), those files are not covered by the database license in Section 3.2 and may only be reused according to the terms of the original publication. I will only put assets from open access papers in this folder, and it will not be exhaustive.
 
