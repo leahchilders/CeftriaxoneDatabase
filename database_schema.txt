@@ -1,0 +1,68 @@
+== drug_pk ==
+- drug_name TEXT PRIMARY KEY
+- half_life REAL
+- volume_distribution REAL
+- free_unbound_fraction REAL
+- notes TEXT
+
+== publications ==
+- source_key TEXT PRIMARY KEY
+- first_author_last TEXT
+- all_authors TEXT
+- year INTEGER
+- doi TEXT
+- url TEXT
+- abstract TEXT
+- is_open_access INTEGER DEFAULT 0
+- data_available INTEGER DEFAULT 0
+- license TEXT
+- notes TEXT
+- citation_bibtex TEXT
+
+== strain_aliases ==
+- alias TEXT PRIMARY KEY
+- strain_name TEXT NOT NULL
+- source_key TEXT
+
+== strain_mic_measurements ==
+- mic_id TEXT PRIMARY KEY
+- strain_report_key TEXT NOT NULL
+- drug_name TEXT NOT NULL
+- mic REAL NOT NULL
+- mic_units TEXT NOT NULL DEFAULT 'mg/L'
+- method TEXT
+- reported_as TEXT
+- notes TEXT
+
+== strain_names ==
+- strain_name TEXT PRIMARY KEY
+
+== strain_pd_fits ==
+- strain_report_key TEXT PRIMARY KEY NOT NULL
+- drug_name TEXT PRIMARY KEY NOT NULL
+- psi_min REAL
+- psi_max REAL
+- n REAL
+- zMIC REAL
+- fit_reported INTEGER
+- fit_by_LC INTEGER
+- fit_method_text TEXT
+- objective TEXT
+- weighting TEXT
+- notes TEXT
+
+== strain_reports ==
+- strain_report_key TEXT PRIMARY KEY
+- source_key TEXT NOT NULL
+- strain_name TEXT NOT NULL
+- year_isolated INTEGER
+- reference_strain INTEGER
+- clinical_isolate INTEGER
+- year_reported INTEGER
+- has_full_params INTEGER
+- has_mic INTEGER
+- notes TEXT
+
+== units ==
+- measurement_name TEXT PRIMARY KEY
+- unit TEXT NOT NULL
