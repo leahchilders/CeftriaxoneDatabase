@@ -20,7 +20,7 @@ There are three main categories of data contained in this database, and they are
 
 The tables and their columns are available in `database_schema.txt`. While most of the information is presented via the UI, some is supplementary and not mentioned there (and since this is a work in progress, some of the information isn't available anywhere yet, but it will be).
 
-**Not available yet but will be:** The main database file is `ceftriaxone.sqlite`, but for convenience I have also included CSV files for each table. To avoid unintended behavior, I would recommend not opening these CSV's in Excel (interesting read: [Despite geneticists being warned about spreadsheet problems, 30% of published papers contain mangled gene names in supplementary data.](https://www.nature.com/articles/d41586-021-02211-4)). I do not believe any of the fields will autocorrect, but I cannot guarantee the accuracy. I will also not be able to update the CSV files as frequently as I update the SQLite file.
+The main database file is `ceftriaxone.sqlite`, but for convenience I have also included CSV files for each table. To avoid unintended behavior, I would recommend not opening these CSV's in Excel (interesting read: [Despite geneticists being warned about spreadsheet problems, 30% of published papers contain mangled gene names in supplementary data.](https://www.nature.com/articles/d41586-021-02211-4)). I do not believe any of the fields will autocorrect, but I cannot guarantee the accuracy. I will also not be able to update the CSV files as frequently as I update the SQLite file.
 
 ## 2 Methods
 
