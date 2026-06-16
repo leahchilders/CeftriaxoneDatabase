@@ -1,0 +1,9 @@
+measurement_name,unit
+mic,mg/L
+zMIC,mg/L
+half_life,h
+volume_distribution,L
+free_unbound_fraction,dimensionless
+psi_min,1/h
+psi_max,1/h
+n,dimensionless
