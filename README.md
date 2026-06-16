@@ -11,7 +11,7 @@
 
 ## 1 Introduction and Basic Information
 
-This repository contains (some of) the downloadable content powering my database UI on my portfolion website: https://leahchilders-portfolio.vercel.app/ceftriaxone-database. This website has authentication set up for other pages, but you do not need to be logged in to access the database.
+This repository contains (some of) the downloadable content powering my database UI on my portfolio website: https://leahchilders-portfolio.vercel.app/ceftriaxone-database. This website has authentication set up for other pages, but you do not need to be logged in to access the database.
 
 The database centralizes reported pharmacodynamic values (the minimum inhibitory dose (MIC) as well as dose response curve parameters) from a systematic literature search of the antibiotic Ceftriaxone used to treat both susceptible and resistant strains of *Neisseria gonorrhoeae*. 
 
@@ -42,7 +42,7 @@ The UI is presented on my portfolio website, a Next.js site hosted on Vercel. Th
 ### 2.4 Pharmacodynamic Curve Fitting
 
 
-## 3 Lisence, Use, and Citation
+## 3 License, Use, and Citation
 
 ### 3.1 For the Referenced Publications
 
