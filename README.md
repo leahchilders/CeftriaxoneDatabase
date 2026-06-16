@@ -1,11 +1,7 @@
 # Ceftriaxone + *Neisseria gonorrhoeae* Database
 
-- The main **SQLite** file was last modified: *not uploaded yet*
-- The **CSV** files were last modified: *not uploaded yet, but `publication_citations/publications.py` is up to date*
-
------
-
-### Note: This repository is a work in progress. Importantly, all publication citations and provenance has been added. The rest of the data and methods will be added incrementally as I work on it.
+- The main **SQLite** file was last modified: *16 June 2026*
+- The **CSV** files were last modified: *16 June 2026*
 
 -----
 
@@ -36,10 +32,14 @@ This database was created using SQLite3. I query the database using both the com
 
 The UI is presented on my portfolio website, a Next.js site hosted on Vercel. The SQLite file is shipped and queried by the client. The plots are generated using Plotly.
 
-### 2.3 Systematic Literature Review
+### 2.3 Literature Review
+
+Sources were identified by searching PubMed, Google Scholar, and Penn State's library databases. for ceftriaxone pharmacodynamics and susceptibility data against Neisseria gonorrhoeae, covering both susceptible and resistant strains. For each included publication I recorded the DOI/URL, open-access status, license, and the provenance of every extracted value (table, figure, supplement, or raw dataset). The current set spans 7 publications (2010–2024).
 
 
 ### 2.4 Pharmacodynamic Curve Fitting
+
+Where a publication reported time-kill data but not fitted parameters, I digitized the curves and fit a Hill-type pharmacodynamic function, recording $\psi_{\min}$, $\psi_{\max}$,the Hill coefficient $n$, and the fitted `zMIC`. Of the 13 parameter sets in the database, 10 are reported directly by their source publications and 3 were fit by me; fits I produced are flagged with `fit_by_LC` in `strain_pd_fits`.
 
 
 ## 3 License, Use, and Citation
